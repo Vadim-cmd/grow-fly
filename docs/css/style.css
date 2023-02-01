@@ -437,10 +437,16 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+    .clients__title {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 767.98px) {
   .clients {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  .clients__title {
+    margin-bottom: 20px;
   }
 }
