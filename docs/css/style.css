@@ -483,6 +483,7 @@ body {
 }
 .services__content {
   flex: 0 1 50%;
+  align-self: center;
 }
 .services__header {
 }
@@ -493,11 +494,14 @@ body {
   justify-content: center;
 }
 .services__column {
-  
 }
 .services__item {
 }
 .item-service {
+  background: rgba(129, 129, 139, 0.1);
+  border-radius: 30px;
+  display: grid;
+  align-items: start;
 }
 .item-service__icon {
 }
@@ -516,3 +520,4 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+}
