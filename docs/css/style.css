@@ -32,6 +32,8 @@ body {
 }
 .page__clients {
 }
+.page__services {
+}
 /*BUTTON*/
 
 .button {
@@ -472,16 +474,26 @@ body {
 
 /* =================== */
 .services {
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 .services__container {
+  display: flex;
+  gap: 32px;
 }
 .services__content {
+  flex: 0 1 50%;
 }
 .services__header {
 }
 .services__items {
+  flex: 0 1 50%;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
 }
 .services__column {
+  
 }
 .services__item {
 }
@@ -493,5 +505,14 @@ body {
 }
 .item-service__text {
 }
-.text {
+@media (max-width: 991.98px) {
+  .services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
+@media (max-width: 767.98px) {
+  .services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
