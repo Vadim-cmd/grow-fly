@@ -944,7 +944,7 @@ body {
 .item-blog__title {
   color: #fff;
   font-size: 19px;
-  line-height: 1.42;
+  line-height: 1.4; /* 28/19 */
 }
 .item-blog__title:hover {
   text-decoration: underline;
