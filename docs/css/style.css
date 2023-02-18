@@ -41,6 +41,12 @@ body {
 .page__blog {
 }
 .page__start {
+  margin-bottom: 100px;
+}
+@media (max-width: 991.98px) {
+  .page__start {
+    margin-bottom: 50px;
+  }
 }
 /*BUTTON*/
 
@@ -999,7 +1005,6 @@ body {
 }
 
 /*================================*/
-
 .start {
 }
 .start__container {
@@ -1039,8 +1044,14 @@ body {
 }
 @media (max-width: 991.98px) {
   .start__body {
+    align-items: stretch;
     flex-direction: column;
     row-gap: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .start__title {
+    font-size: 24px;
   }
 }
 @media (max-width: 479.98px) {
